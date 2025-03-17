@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Kalam:wght@300;400;700&family=Oldenburg&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Oldenburg", serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 40px;
+}

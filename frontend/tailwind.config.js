@@ -4,7 +4,13 @@ import daisyui from 'daisyui';
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        kalam: ["Kalam", "cursive"],
+        delius: ["Delius", "cursive"],
+        oldenburg: ["Oldenburg", "serif"],
+      }
+    },
   },
   plugins: [daisyui],
   daisyui: {
